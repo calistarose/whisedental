@@ -1,0 +1,31 @@
+.header{
+    background-color: #ADD8E6;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: auto;
+    height: 90px;
+}
+
+.label{
+    text-align: center;
+    color: #1434A4;
+}
+
+.new-account a{
+    text-align: end;
+    text-decoration: none;
+    color: #636363;
+}
+
+.form-section {
+    display: none;
+}
+
+.form-section.active {
+    display: block;
+}
